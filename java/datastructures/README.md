@@ -1,17 +1,6 @@
 ### 401 Data Structures, Code Challenges
-
+Table reference from akkaben
 | Table of Contents - Data Structures                                    |
 | -----------------------------------------------------------------------|
-| [Whiteboarding: Array Reversal](./java/arrayReverse/README.md)         |
-| [Whiteboarding: Array Insert Shift](./java/arrayInsertShift/README.md) |
-| [Whiteboarding: Binary Search](./java/binarySearch/README.md)          |
-| [Implementation: Singly Linked Lists](./java/datastructures/singly-linked-list-readme.md)
-| [Extending an Implementation: Append, Insert Before, Insert After](./java/datastructures/singly-linked-list-extension-readme.md)
-| [Extending an Implementation: Kth from End](./java/datastructures/singly-linked-list-kth-from-end-readme.md)
-| [Implementation: Stacks & Queues](./java/datastructures/stacks-and-queues-readme.md)
-| [Implementation: Trees](./java/datastructures/trees-readme.md)
-| [Extending an Implementation: Max Value Binary Tree](./java/datastructures/trees-max-value-readme.md)
-| [Implementation: Hash Table](./java/datastructures/hash-table-readme.md)
-| [Implementation: Graph](./java/datastructures/graph-readme.md)
-| [Extending an Implementation: Breadth First Traversal Graph](./java/datastructures/graph-breadth-first-readme.md)
-| [Extending an Implementation: Depth First Traversal Graph](./java/datastructures/graph-depth-first-readme.md)
+| [Whiteboarding: Array Reversal](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/linkedlist/WhiteBoarding/codeChallenge1.png)
+| [Whiteboarding: Array Insert Shift](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/linkedlist/WhiteBoarding/codeChallenge2.png) |
