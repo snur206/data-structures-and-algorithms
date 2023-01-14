@@ -63,5 +63,7 @@ toString: O(1) time O(n) traversing the whole list
 
 ## API
 public void insert(int value)
+
 public boolean includes(int value)
-public String toString
+
+public String toString()
