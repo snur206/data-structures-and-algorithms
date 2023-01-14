@@ -12,4 +12,9 @@ public class LinkedListTest
       System.out.println(sut);
       assertTrue(true);
     }
+@Test void testInsert(){
+  LinkedList sut = new LinkedList(3);
+//  sut.head = new Node(3);
+  sut.insert(3);
+}
 }
