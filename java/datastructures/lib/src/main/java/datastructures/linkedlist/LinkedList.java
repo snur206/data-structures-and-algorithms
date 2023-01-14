@@ -27,9 +27,10 @@ public class LinkedList {
       return true;
     }
     tempNode = tempNode.next;
+    return false;
   }
-  return false;
-}
+//  return false;
+
 
   @Override
   public String toString()
