@@ -10,7 +10,7 @@ Table reference from akkaben
 
 # Code Challenge 2:
 
-# Insert to Middle of an Array
+## Insert to Middle of an Array
 
 Write a function called insertShiftArray which takes in an array and a value to be added. Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
 
@@ -24,7 +24,7 @@ Approach was to set values for the first index and last in the array. If the key
 
 # Code Challenge 3:
 
-# Binary Search
+## Binary Search
 
 Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array’s element that is equal to the value of the search key, or -1 if the element is not in the array.
 
@@ -36,14 +36,13 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 Approach was to set values for the first index and last in the given array. The value helped with deciding the midpoint that is being compared to the key. If midpoint is lesser than the key value , the key value is forward -1 or too low. If midpoint is greater than the key value, the key value is behind +1 or too high. If midpoint is equal to the key value, return the index Using Time O(n) because a loop was used and Space O(n) to use the size of the array.
 
-# Code Challenge:
+# Code Challenge 05:
 
-# Singly Linked List
+## Singly Linked List
 
 Create a Linked List class that contains the methods insert, includes, and to string with arguments and returns. 
 
-
-## Challenge 05
+## Challenge
 
 Can successfully instantiate an empty linked list
 Can properly insert into the linked list
@@ -57,7 +56,7 @@ Can properly return a collection of all the values that exist in the linked list
 
 Just researching things and implementing them.
 
-# Big O
+## Big O
 Insert: space O(1) size of 1 node time O(1) traversing at all
 Includes: O(1) time O(n) looking for the last link traversing the linked list once
 toString: O(1) time O(n) traversing the whole list
