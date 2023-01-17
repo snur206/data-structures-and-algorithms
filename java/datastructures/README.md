@@ -36,7 +36,7 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 Approach was to set values for the first index and last in the given array. The value helped with deciding the midpoint that is being compared to the key. If midpoint is lesser than the key value , the key value is forward -1 or too low. If midpoint is greater than the key value, the key value is behind +1 or too high. If midpoint is equal to the key value, return the index Using Time O(n) because a loop was used and Space O(n) to use the size of the array.
 
-# Code Challenge 05:
+# Code Challenge 5:
 
 ## Singly Linked List
 
@@ -67,3 +67,5 @@ public void insert(int value)
 public boolean includes(int value)
 
 public String toString()
+
+# Code Challenge 6:
