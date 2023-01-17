@@ -43,7 +43,7 @@ Approach was to set values for the first index and last in the given array. The 
 Create a Linked List class that contains the methods insert, includes, and to string with arguments and returns. 
 
 
-## Challenge
+## Challenge 05
 
 Can successfully instantiate an empty linked list
 Can properly insert into the linked list
