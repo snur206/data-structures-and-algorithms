@@ -71,15 +71,14 @@ public String toString()
 # Code Challenge 6:
 
 # Challenge Summary
-<!-- Description of the challenge -->
+Create a singly linked list that include and "append", "insert before", and "insert after" method.
 
 ## Whiteboard Process
 <img width="1005" alt="codeChallenge6" src="https://user-images.githubusercontent.com/115438182/213084200-196329ef-03bf-4b6f-ab81-704d3a587b75.png">
-[Link to Code](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java)
+
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+For each function, you traverse the linked list, except for the append function where you traverse each node. Time O(N) is used because of that and space O(n) is used for the space to get the variables you traverse for the nodes as the list grows.
 
 ## Solution
-<!-- Show how to run your code, and examples of it in action -->
-
+[Solution Code](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java)
