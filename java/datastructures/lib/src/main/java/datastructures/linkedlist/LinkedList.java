@@ -56,7 +56,7 @@ public class LinkedList {
       }
       curr.next = newNode;
     } else {
-      head = new Node;
+      head = newNode;
     }
   }
 
@@ -65,7 +65,7 @@ public class LinkedList {
     Node prev = null;
     if (head != null) {
       while (curr != null) {
-        if (curr.newValue == value) {
+        if (curr.value == value) {
           Node before = new Node(newValue);
           before.next = curr;
 
@@ -87,11 +87,12 @@ public class LinkedList {
     Node newNode = new Node(value);
     Node curr = head;
     while (curr != null) {
-      if (curr.value == newValue) {
+      if (curr.value == value) {
         newNode.next = curr.next;
         curr.next = newNode;
       }
       curr = curr.next;
     }
   }
+
 }
