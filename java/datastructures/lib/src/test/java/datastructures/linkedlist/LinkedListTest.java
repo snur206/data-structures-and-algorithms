@@ -42,8 +42,8 @@ public class LinkedListTest
     sut.insert(4);
     sut.insertAfter(3, 4);
     assertEquals("{3} -> {4} -> {2} -> {1} -> NULL", sut.toString());
-
   }
+  
   @Test void testKth() {
     LinkedList sut = new LinkedList();
     sut.insert(2);
@@ -52,7 +52,5 @@ public class LinkedListTest
     sut.insert(1);
     assertEquals(2, sut.kthFromEnd(0));
   }
-
-
 
 }
