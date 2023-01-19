@@ -95,4 +95,20 @@ public class LinkedList {
     }
   }
 
+  // Code Challenge 7
+  public short kthFromEnd(int k)
+  {
+    int target = 0;
+    Node temp = head;
+    while (temp != null) {
+      temp = temp.next;
+      target++;
+    }
+    if (target < k)
+      return 0;
+    temp = head;
+    for (int i = 1; i < target - k + 1; i++)
+      temp = temp.next;
+    return 0;
+  }
 }
