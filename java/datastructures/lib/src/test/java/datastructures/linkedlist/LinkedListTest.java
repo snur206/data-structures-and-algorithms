@@ -25,22 +25,34 @@ public class LinkedListTest
   sut.insert(2);
   sut.insert(3);
   sut.append(5);
-  assertEquals("{1} -> {3} -> {5} -> {2} -> NULL", sut.toString());
-}
+  assertEquals("{3} -> {2} -> {1} -> {5} -> NULL", sut.toString());}
 @Test void testInsertBefore() {
   LinkedList sut = new LinkedList();
   sut.insert(1);
   sut.insert(2);
   sut.insert(4);
   sut.insertBefore(3, 4);
-  assertEquals("{1} -> {2} -> {3} -> {4} -> NULL", sut.toString());
-  }
+  assertEquals("{1} -> {2} -> {4} -> {3} -> NULL", sut.toString());
+
+}
   @Test void testInsertAfter() {
     LinkedList sut = new LinkedList();
     sut.insert(1);
     sut.insert(2);
     sut.insert(4);
     sut.insertAfter(3, 4);
-    assertEquals("{1} -> {2} -> {4} -> {3} -> NULL", sut.toString());
+    assertEquals("{3} -> {4} -> {2} -> {1} -> NULL", sut.toString());
+
   }
+  @Test void testKth() {
+    LinkedList sut = new LinkedList();
+    sut.insert(2);
+    sut.insert(8);
+    sut.insert(3);
+    sut.insert(1);
+    assertEquals(2, sut.kthFromEnd(0));
+  }
+
+
+
 }

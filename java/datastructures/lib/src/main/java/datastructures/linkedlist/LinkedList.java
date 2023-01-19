@@ -56,7 +56,7 @@ public class LinkedList {
       }
       curr.next = newNode;
     } else {
-      head = new Node;
+      head = newNode;
     }
   }
 
@@ -65,7 +65,7 @@ public class LinkedList {
     Node prev = null;
     if (head != null) {
       while (curr != null) {
-        if (curr.newValue == value) {
+        if (curr.value == value) {
           Node before = new Node(newValue);
           before.next = curr;
 
@@ -87,11 +87,28 @@ public class LinkedList {
     Node newNode = new Node(value);
     Node curr = head;
     while (curr != null) {
-      if (curr.value == newValue) {
+      if (curr.value == value) {
         newNode.next = curr.next;
         curr.next = newNode;
       }
       curr = curr.next;
     }
+  }
+
+  // Code Challenge 7
+  public short kthFromEnd(int k)
+  {
+    int target = 0;
+    Node temp = head;
+    while (temp != null) {
+      temp = temp.next;
+      target++;
+    }
+    if (target < k)
+      return 0;
+    temp = head;
+    for (int i = 1; i < target - k + 1; i++)
+      temp = temp.next;
+    return 0;
   }
 }
