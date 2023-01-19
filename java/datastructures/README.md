@@ -92,6 +92,7 @@ Write a method for the Linked List class having a number, k, as a parameter and 
 <img width="818" alt="codeChallenge7" src="https://user-images.githubusercontent.com/115438182/213358836-31954650-373e-49ec-806e-3debd060e50a.png">
 
 ## Approach & Efficiency
+The approach that I took was to find the length of the linked list and find the stopping point(Args k). Using O(n) for time since I am looping in the code and for space O(1) since the list is not growing.
 
 ## Solution
 [Solution Code CC 7](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java)
