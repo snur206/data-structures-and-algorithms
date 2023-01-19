@@ -84,6 +84,7 @@ For each function, you traverse the linked list, except for the append function 
 ## Solution
 [Solution Code CC 6](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java)
 
+# Code Challenge 7: 
 
 # Challenge Summary
 Write a method for the Linked List class having a number, k, as a parameter and return the node’s value that is k places from the tail of the linked list.
