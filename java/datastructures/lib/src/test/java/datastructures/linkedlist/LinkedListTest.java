@@ -53,6 +53,12 @@ public class LinkedListTest
     assertEquals(2, sut.kthFromEnd(0));
   }
 
+  @Test void testZipTest() {
+    LinkedList sut = new LinkedList();
+
+
+  }
+
 
 
 }

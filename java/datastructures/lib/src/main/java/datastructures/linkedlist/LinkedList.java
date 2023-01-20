@@ -111,4 +111,19 @@ public class LinkedList {
       temp = temp.next;
     return 0;
   }
+
+  // Code Challenge 8
+  public Node ziplist(Node curr1, Node curr2) {
+    curr1 = head;
+    curr2 = head;
+    while(curr1 != null && curr2 != null) {
+      Node temp1 = curr1.next;
+      curr1.next = curr2;
+      curr1 = temp1;
+      Node temp2 = curr2.next;
+      curr2.next = curr1;
+      curr2 = curr2;
+    }
+    return head;
+  }
 }
