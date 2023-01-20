@@ -1,5 +1,5 @@
 ### 401 Data Structures, Code Challenges
-Table reference from akkaben 
+Table reference from akkaben
 | Table of Contents - Data Structures                                    |
 | -----------------------------------------------------------------------|
 | [Whiteboarding: Array Reversal](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/linkedlist/WhiteBoarding/codeChallenge1.png)
@@ -18,7 +18,7 @@ Write a function called insertShiftArray which takes in an array and a value to 
 
 <img width="1107" alt="Screenshot 2023-01-11 at 9 22 39 AM" src="https://user-images.githubusercontent.com/115438182/211879883-8e23a8ea-2a15-44a6-a740-b47644c3f07b.png">
 
-## Approach & Efficiency 
+## Approach & Efficiency
 
 Approach was to set values for the first index and last in the array. If the key value pair was greater compared to the value in the midpoint that it is being tested, to add it infront of the value. Using Time O(n) because it is linear and going through each array value and Space O(n) to reate an array with added size +1.
 
@@ -32,7 +32,7 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 <img width="1200" alt="Screenshot 2023-01-11 at 3 15 12 PM" src="https://user-images.githubusercontent.com/115438182/211940726-082aafe4-4428-4770-9edd-3e682c6e5861.png">
 
-## Approach & Efficiency 
+## Approach & Efficiency
 
 Approach was to set values for the first index and last in the given array. The value helped with deciding the midpoint that is being compared to the key. If midpoint is lesser than the key value , the key value is forward -1 or too low. If midpoint is greater than the key value, the key value is behind +1 or too high. If midpoint is equal to the key value, return the index Using Time O(n) because a loop was used and Space O(n) to use the size of the array.
 
@@ -40,7 +40,7 @@ Approach was to set values for the first index and last in the given array. The 
 
 ## Singly Linked List
 
-Create a Linked List class that contains the methods insert, includes, and to string with arguments and returns. 
+Create a Linked List class that contains the methods insert, includes, and to string with arguments and returns.
 
 ## Challenge
 
@@ -82,3 +82,32 @@ For each function, you traverse the linked list, except for the append function 
 
 ## Solution
 [Solution Code](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java)
+
+# Code Challenge 7:
+
+# Challenge Summary
+Write a method for the Linked List class having a number, k, as a parameter and return the node’s value that is k places from the tail of the linked list.
+
+## Whiteboard Process
+<img width="818" alt="codeChallenge7" src="https://user-images.githubusercontent.com/115438182/213358836-31954650-373e-49ec-806e-3debd060e50a.png">
+
+## Approach & Efficiency
+The approach that I took was to find the length of the linked list and find the stopping point(Args k). Using O(n) for time since I am looping in the code and for space O(1) since the list is not growing.
+
+## Solution
+[Solution Code CC 7](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java)
+
+# Code Challenge 8:
+
+# Challenge Summary
+Write a function called zip lists that takes a linked lists and zips another linked lists
+Return new linked list
+## Whiteboard Process
+<img width="788" alt="codeChallenge8" src="https://user-images.githubusercontent.com/115438182/213624391-47016ad3-33e7-4a2f-8c13-041012182fb0.png">
+
+## Approach & Efficiency
+The approach that I took was to take two linked lists and returning a list that combines/zips through both linked lists. Using O(n) for time since I am looping in the code and for space O(n) since the list is growing.
+
+## Solution
+[Solution Code CC 8](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java)
+
