@@ -5,8 +5,9 @@ Table reference from akkaben
 | [Whiteboarding: Array Reversal](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/linkedlist/WhiteBoarding/codeChallenge1.png)
 | [Whiteboarding: Array Insert Shift](https://github.com/snur206/data-structures-and-algorithms/blob/array-insert-shift/java/datastructures/lib/src/main/java/codechallenges/linkedlist/WhiteBoarding/codeChallenge2.png) |
 | [Whiteboarding: Binary Search](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/linkedlist/WhiteBoarding/codeChallenge03.png) |
-| [Linked List](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/linkedlist) |
-| [Linked List Insertions](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
+| [CC 5: Linked List](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
+| [CC 6: Linked List Insertions](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
+| [CC 7: Linked List kth](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
 
 # Code Challenge 2:
 
@@ -80,10 +81,9 @@ Create a singly linked list that include and "append", "insert before", and "ins
 ## Approach & Efficiency
 For each function, you traverse the linked list, except for the append function where you traverse each node. Time O(N) is used because of that and space O(n) is used for the space to get the variables you traverse for the nodes as the list grows.
 
-## Solution
-[Solution Code](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java)
+[Solution Code CC 6](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java)
 
-# Code Challenge 7:
+# Code Challenge 7: 
 
 # Challenge Summary
 Write a method for the Linked List class having a number, k, as a parameter and return the node’s value that is k places from the tail of the linked list.
@@ -102,6 +102,7 @@ The approach that I took was to find the length of the linked list and find the 
 # Challenge Summary
 Write a function called zip lists that takes a linked lists and zips another linked lists
 Return new linked list
+
 ## Whiteboard Process
 <img width="788" alt="codeChallenge8" src="https://user-images.githubusercontent.com/115438182/213624391-47016ad3-33e7-4a2f-8c13-041012182fb0.png">
 
