@@ -8,6 +8,8 @@ Table reference from akkaben
 | [Linked List](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/linkedlist) |
 | [Linked List Insertions](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
 | [Linked List Zip](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
+| [Stacks & Queues]() |
+
 
 # Code Challenge 2:
 
