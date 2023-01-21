@@ -8,6 +8,8 @@ Table reference from akkaben
 | [Linked List](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/linkedlist) |
 | [Linked List Insertions](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
 | [Linked List Zip](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
+| [Stacks & Queues]()https://github.com/snur206/data-structures-and-algorithms/blob/stack-and-queue/java/datastructures/README.md |
+
 
 # Code Challenge 2:
 
@@ -112,3 +114,21 @@ The approach that I took was to take two linked lists and returning a list that 
 ## Solution
 [Solution Code CC 8](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java)
 
+# Code Challenge 10:
+## Collaborated w/ Adrian
+
+## Stacks and Queues and Challenge
+Using a Linked List as the underlying data storage mechanism, implement both a Stack and a Queue. For Stack, the class contains push, pop, peek, and isEmpty methods. For Queue, the class contains enqueue, dequeue, peek, and isEmpty methods.
+
+## Approach & Efficiency
+Completed the methods for both stack and queque. Push, pop, peek, dequeue and isEmpty all use the O(1) for both time and space because you are doing one thing. Enqueue uses the time O(n) because it is traversing through the queue and O(1) for space.
+## API
+Stack: stacking on top of each other
+Queue: a line of some sort
+Push(t val):Adds new node to stack and sets new node as top
+pop(): Removes node from top of stack and returns the node’s value
+Peek(): Returns value from top of stack
+Enqueue(t val): Add a node to the back of your queue
+Dequeque: Remove node from front of queue, return the val
+Peek(): Return value of front node
+isEmpty(boolean) tells if queue is empty
