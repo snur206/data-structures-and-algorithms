@@ -147,4 +147,4 @@ Working with a partner and research through videos was the approach because it a
 
 
 ## Solution
-[Solution Code CC10](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java)
+[Solution Code CC10](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java)
