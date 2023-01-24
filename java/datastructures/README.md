@@ -143,6 +143,8 @@ Create a new class called pseudo queue.  PseudoQueue class has the two methods ,
 ![CC10.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC10.png)
 
 ## Approach & Efficiency
+Working with a partner and research through videos was the approach because it allows us to pick each others brains. The Space complexity is O(n) holding the amount of values given between the two stacks and time is O(1) algo's worst case, stays constant.
+
 
 ## Solution
 [Solution Code CC10](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java)

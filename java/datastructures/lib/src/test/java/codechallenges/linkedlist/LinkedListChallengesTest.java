@@ -29,7 +29,7 @@ public class LinkedListChallengesTest
     sut.enqueue(2);
     sut.enqueue(3);
     sut.dequeue();
-    assertEquals("[3]->[2]->[1]->NULL",sut.toString());
+    assertEquals("[3]->[2]->NULL",sut.toString());
   }
   }
 
