@@ -9,6 +9,7 @@ Table reference from akkaben
 | [Linked List Insertions](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
 | [Linked List Zip](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
 | [Stacks & Queues](https://github.com/snur206/data-structures-and-algorithms/blob/stack-and-queue/java/datastructures/README.md) |
+| [Stacks & Queues Pseudo](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java) |
 
 
 # Code Challenge 2:
@@ -133,17 +134,17 @@ Dequeque: Remove node from front of queue, return the val
 Peek(): Return value of front node
 isEmpty(boolean) tells if queue is empty
 
-
 # Code Challenge 11:
 ## Collaborated w/ Adrian
 # Challenge Summary
-
+Create a new class called pseudo queue.  PseudoQueue class has the two methods , enqueue and dequeue. Enqueue has an argument that is going to be implemented into the queue and remove a value from the queue using dequeue.
 
 ## Whiteboard Process
 ![CC10.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC10.png)
 
 ## Approach & Efficiency
+Working with a partner and research through videos was the approach because it allows us to pick each others brains. The Space complexity is O(n) holding the amount of values given between the two stacks and time is O(1) algo's worst case, stays constant.
 
 
 ## Solution
-
+[Solution Code CC10](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java)
