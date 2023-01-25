@@ -10,6 +10,7 @@ Table reference from akkaben
 | [Linked List Zip](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
 | [Stacks & Queues](https://github.com/snur206/data-structures-and-algorithms/blob/stack-and-queue/java/datastructures/README.md) |
 | [Stacks & Queues Pseudo](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java) |
+| [Stacks & Queues Animal Shelter](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/animal/animalShelter.java) |
 
 
 # Code Challenge 2:
@@ -148,3 +149,15 @@ Working with a partner and research through videos was the approach because it a
 
 ## Solution
 [Solution Code CC10](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java)
+
+# Code Challenge 12:
+## Collaborated w/ Adrian and Ryan
+# Challenge Summary
+Create class called AnimalShelter that holds only cats and doges using FIFO impletmenting the methods enqueue and dequeue.
+## Whiteboard Process
+![CC12.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC12.png)
+## Approach & Efficiency
+Working with my partners to discuss the challenge and bounce ideas off of each other. The Time complexity is O(n) because the queue stays constant. The Space complexity is O(1) because it is holding values from the queue that needs no extra space that is required.
+
+## Solution
+[Solution Code CC12](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/animal/animalShelter.java)
