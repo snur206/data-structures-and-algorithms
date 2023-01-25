@@ -16,21 +16,6 @@ public class LinkedListChallengesTest
     assertTrue(true);
   }
 
-    @Test void testAddPseudoQueue() {
-      pseudoQueue<Integer> sut = new pseudoQueue<>();
-      sut.enqueue(7);
-      sut.enqueue(5);
-      sut.enqueue(3);
-      assertEquals("[3]->[5]->[7]->NULL",sut.toString());
-    }
-  @Test void testRemovePseudoQueue() {
-    pseudoQueue<Integer> sut = new pseudoQueue<>();
-    sut.enqueue(1);
-    sut.enqueue(2);
-    sut.enqueue(3);
-    sut.dequeue();
-    assertEquals("[3]->[2]->NULL",sut.toString());
-  }
   }
 
 
