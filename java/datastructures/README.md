@@ -11,6 +11,7 @@ Table reference from akkaben
 | [Stacks & Queues](https://github.com/snur206/data-structures-and-algorithms/blob/stack-and-queue/java/datastructures/README.md) |
 | [Stacks & Queues Pseudo](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java) |
 | [Stacks & Queues Animal Shelter](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/animal/animalShelter.java) |
+| [Stacks & Queues Valid Brackets](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/brackets/Brackets.java) |
 
 
 # Code Challenge 2:
@@ -161,3 +162,17 @@ Working with my partners to discuss the challenge and bounce ideas off of each o
 
 ## Solution
 [Solution Code CC12](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/animal/animalShelter.java)
+
+# Code Challenge 13:
+## Collaborated w/ Adrian and Ryan
+# Challenge Summary
+
+Write a function called validate brackets that takes a string argument and return a boolean. Three types of brackets, Round Brackets: (), Square Brackets: [], and Curly Brackets: {}.
+
+## Whiteboard Process
+![CC13.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC13.png)
+## Approach & Efficiency
+Researching on the brackets  The Time complexity is O(n) because we are running a loop. The Space complexity is O(1) because the space is not increasing.
+
+## Solution
+[Solution Code CC13](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/brackets/Brackets.java)
