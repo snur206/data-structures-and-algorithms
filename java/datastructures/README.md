@@ -176,3 +176,30 @@ Researching on the brackets  The Time complexity is O(n) because we are running 
 
 ## Solution
 [Solution Code CC13](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/brackets/Brackets.java)
+
+# Code Challenge: Trees
+A data structure where nodes are organized by root, left, or right depending if the order is either preOrder, inOrder, or postOrder.
+## Challenge
+Create a Node class that has properties for the value stored in the node, the left child node, and the right child node.
+Create a Binary Tree class that takes three methodes (pre, in, post orders) that returns an array of values ordered appropriately.
+Create a Binary Search Tree class that takes the methods add with value as its argument and returns nothing. Adds a new node with that value in the correct location in the binary search tree.
+Contains is the other method that has value as its argument and returns a boolean indicating whether or not the value is in the tree at least once.
+Tests:
+Can successfully instantiate an empty tree
+Can successfully instantiate a tree with a single root node
+For a Binary Search Tree, can successfully add a left child and right child properly to a node
+Can successfully return a collection from a preorder traversal
+Can successfully return a collection from an inorder traversal
+Can successfully return a collection from a postorder traversal
+Returns true	false for the contains method, given an existing or non-existing node value
+
+## Approach & Efficiency
+BST and Binary tree  has the complexity time of O(h) depends on the height of the tree or for BST O(n) because the tree is increasing and the space O(w) depends on the width of the tree.
+## API
+### Binary Tree
+public Object[] preOrderTraversal(): Root will be looked at first, then goes left, and will check right last. Root, Left, Right
+public Object[] inOrderTraversal(): Left will be looked at first, then goes root, and will check right last. Left, Root, Right
+P public Object[] postOrderTraversal(): Left will be looked at first, then goes right, and will check root last. Left, Right, Root
+### Binary Search Tree
+public void add(T value): Adds new node with the value in the right spot.
+public boolean contains (T value): Returns false when the value is not in the tree at least once.
