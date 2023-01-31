@@ -12,6 +12,7 @@ Table reference from akkaben
 | [Stacks & Queues Pseudo](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java) |
 | [Stacks & Queues Animal Shelter](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/animal/animalShelter.java) |
 | [Stacks & Queues Valid Brackets](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/brackets/Brackets.java) |
+| [Tree Max](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/TreeMax.java) |
 
 
 # Code Challenge 2:
@@ -203,3 +204,14 @@ P public Object[] postOrderTraversal(): Left will be looked at first, then goes 
 ### Binary Search Tree
 public void add(T value): Adds new node with the value in the right spot.
 public boolean contains (T value): Returns false when the value is not in the tree at least once.
+
+# Code Challenge 16:
+## Collaborated w/ Adrian, Devon and Ryan
+# Challenge Summary
+Write a Binary Tree class method to find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+## Whiteboard Process
+![CC16.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC16.png)
+## Approach & Efficiency
+The time complexity is O(h) depending on the height of the tree  and the space complexity is O(w) depending on the width of the tree
+## Solution
+[Solution Code CC16](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/TreeMax.java) |
