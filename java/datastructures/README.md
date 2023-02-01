@@ -13,6 +13,7 @@ Table reference from akkaben
 | [Stacks & Queues Animal Shelter](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/animal/animalShelter.java) |
 | [Stacks & Queues Valid Brackets](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/brackets/Brackets.java) |
 | [Tree Max](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/TreeMax.java) |
+| [Tree Breadth First](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/BreadthFirst.java) |
 
 
 # Code Challenge 2:
@@ -215,3 +216,14 @@ Write a Binary Tree class method to find the maximum value stored in the tree. Y
 The time complexity is O(h) depending on the height of the tree  and the space complexity is O(w) depending on the width of the tree
 ## Solution
 [Solution Code CC16](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/TreeMax.java) |
+
+# Code Challenge 17:
+## Collaborated w/ Adrian, Devon and Ryan
+# Challenge Summary
+Write a function called breadth first that is a tree and return a list of all values in the tree, in the order they were encountered.
+## Whiteboard Process
+![CC17.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC17.png)
+## Approach & Efficiency
+The time complexity is O(h) depending on the height of the tree  and the space complexity is O(w) depending on the width of the tree.
+## Solution
+[Solution Code CC17](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/BreadthFirst.java) |
