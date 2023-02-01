@@ -15,6 +15,7 @@ Table reference from akkaben
 | [Trees](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/tree) |
 
 
+
 # Code Challenge 2:
 
 ## Insert to Middle of an Array
@@ -204,3 +205,4 @@ P public Object[] postOrderTraversal(): Left will be looked at first, then goes 
 ### Binary Search Tree
 public void add(T value): Adds new node with the value in the right spot.
 public boolean contains (T value): Returns false when the value is not in the tree at least once.
+
