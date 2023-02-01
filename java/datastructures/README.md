@@ -12,7 +12,7 @@ Table reference from akkaben
 | [Stacks & Queues Pseudo](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java) |
 | [Stacks & Queues Animal Shelter](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/animal/animalShelter.java) |
 | [Stacks & Queues Valid Brackets](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/brackets/Brackets.java) |
-| [Tree Max](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/TreeMax.java) |
+| [Tree Max](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/tree) |
 
 
 # Code Challenge 2:
