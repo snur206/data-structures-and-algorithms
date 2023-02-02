@@ -14,8 +14,6 @@ public class TreeMax {
 
     if (root.getElement() > max)
       max = root.getElement();
-
   }
         return max;
-
 }
