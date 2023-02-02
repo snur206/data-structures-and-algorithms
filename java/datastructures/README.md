@@ -13,6 +13,7 @@ Table reference from akkaben
 | [Stacks & Queues Animal Shelter](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/animal/animalShelter.java) |
 | [Stacks & Queues Valid Brackets](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/brackets/Brackets.java) |
 | [Tree Max](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/tree) |
+| [Tree Fizz Buzz](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/tree) |
 
 
 # Code Challenge 2:
@@ -215,3 +216,29 @@ Write a Binary Tree class method to find the maximum value stored in the tree. Y
 The time complexity is O(h) depending on the height of the tree  and the space complexity is O(w) depending on the width of the tree
 ## Solution
 [Solution Code CC16](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/TreeMax.java) |
+
+# Code Challenge 17:
+## Collaborated w/ Adrian, Devon and Ryan
+# Challenge Summary
+Write a function called breadth first that is a tree and return a list of all values in the tree, in the order they were encountered.
+## Whiteboard Process
+![CC17.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC17.png)
+## Approach & Efficiency
+The time complexity is O(h) depending on the height of the tree  and the space complexity is O(w) depending on the width of the tree.
+## Solution
+[Solution Code CC17](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/BreadthFirst.java) |
+
+# Code Challenge 18:
+## Collaborated w/ Adrian, Devon and Ryan
+# Challenge Summary
+Write a function called fizz buzz tree that has an argument k-ary tree and returns a new k-ary tree.
+If the value is divisible by 3, replace the value with “Fizz”
+If the value is divisible by 5, replace the value with “Buzz”
+If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
+If the value is not divisible by 3 or 5, simply turn the number into a String.
+## Whiteboard Process
+![CC18.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC18.png)
+## Approach & Efficiency
+The time complexity is O(h) depending on the height of the tree  and the space complexity is O(w) depending on the width of the tree.
+## Solution
+[Solution Code CC17](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/BreadthFirst.java) |
