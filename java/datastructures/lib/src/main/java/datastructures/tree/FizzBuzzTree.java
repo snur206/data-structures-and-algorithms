@@ -1,7 +1,6 @@
 package datastructures.tree;
 
 // Java program to print Fizz Buzz
-
 class FizzBuzzTree {
   public static String main(String[] args)
   {
