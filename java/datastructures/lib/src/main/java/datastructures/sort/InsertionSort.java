@@ -5,7 +5,6 @@ public class InsertionSort(int[] arr) {
 
     int j = i - 1;
     int temp = arr[i];
-
     while(j >= 0 && temp < arr[j]){
       arr[j+1] = arr[j];
       j--;

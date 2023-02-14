@@ -14,6 +14,7 @@ Table reference from akkaben
 | [Stacks & Queues Valid Brackets](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/brackets/Brackets.java) |
 | [Tree Max](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/tree) |
 | [Tree Fizz Buzz](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/tree) |
+| [Sort](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/sort.InsertionSort.java) |
 
 
 # Code Challenge 2:
@@ -242,3 +243,14 @@ If the value is not divisible by 3 or 5, simply turn the number into a String.
 The time complexity is O(h) depending on the height of the tree  and the space complexity is O(w) depending on the width of the tree.
 ## Solution
 [Solution Code CC17](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/BreadthFirst.java) |
+
+# Code Challenge 18:
+## Collaborated w/ Adrian and Ryan
+# Challenge Summary
+In my blog article, visually show the output of processing this input array sorting them in ascending order: 8,4,23,42,16,15. Provide a visual step through for each of the sample arrays based on the provided pseudo-code. Convert the pseudo-code into working code in your language. Present a complete set of working tests.
+## Whiteboard Process
+![cc26.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2Fcc26.png)
+## Approach & Efficiency
+Time: O(n^2): Sorting items in a collection. Space: O(1): Space is constant and no space is being created.
+## Solution
+[Solution Code CC26]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/sort.InsertionSort.java
