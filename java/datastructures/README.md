@@ -253,4 +253,4 @@ In my blog article, visually show the output of processing this input array sort
 ## Approach & Efficiency
 Time: O(n^2): Sorting items in a collection. Space: O(1): Space is constant and no space is being created.
 ## Solution
-[Solution Code CC26]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/sort.InsertionSort.java
+[Solution Code CC26](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/sort.InsertionSort.java)
