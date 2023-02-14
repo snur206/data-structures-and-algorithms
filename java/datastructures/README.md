@@ -244,7 +244,7 @@ The time complexity is O(h) depending on the height of the tree  and the space c
 ## Solution
 [Solution Code CC17](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/BreadthFirst.java) |
 
-# Code Challenge 18:
+# Code Challenge 26:
 ## Collaborated w/ Adrian and Ryan
 # Challenge Summary
 In my blog article, visually show the output of processing this input array sorting them in ascending order: 8,4,23,42,16,15. Provide a visual step through for each of the sample arrays based on the provided pseudo-code. Convert the pseudo-code into working code in your language. Present a complete set of working tests.
