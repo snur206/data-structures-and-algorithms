@@ -12,5 +12,6 @@ public class FizzBuzzTreeTest {
     assertEquals("Buzz", sut.equals(5));
     assertEquals("FizzBuzz", sut.equals(15));
     assertEquals(" ", sut.equals(0));
+
   }
 }
