@@ -257,7 +257,7 @@ Time: O(n^2): Sorting items in a collection. Space: O(1): Space is constant and 
 ## Solution
 [Solution Code CC26]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/sort/InsertionSort.java
 
-# Code Challenge 26:
+# Code Challenge 27:
 ## Collaborated w/ Adrian
 # Challenge Summary
 In my blog article, visually show the output of processing this input array splitting then merging them in ascending order: 8,4,23,42,16,15. Provide a visual step through for each of the sample arrays based on the provided pseudo-code. Convert the pseudo-code into working code in your language. Present a complete set of working tests.
