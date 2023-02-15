@@ -15,6 +15,8 @@ Table reference from akkaben
 | [Tree Max](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/tree) |
 | [Tree Fizz Buzz](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/tree) |
 | [Sort](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/sort.InsertionSort.java) |
+| [Merge Sort](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/MergeSort.java) |
+
 
 
 # Code Challenge 2:
@@ -244,7 +246,7 @@ The time complexity is O(h) depending on the height of the tree  and the space c
 ## Solution
 [Solution Code CC17](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/BreadthFirst.java) |
 
-# Code Challenge 18:
+# Code Challenge 26:
 ## Collaborated w/ Adrian and Ryan
 # Challenge Summary
 In my blog article, visually show the output of processing this input array sorting them in ascending order: 8,4,23,42,16,15. Provide a visual step through for each of the sample arrays based on the provided pseudo-code. Convert the pseudo-code into working code in your language. Present a complete set of working tests.
@@ -253,4 +255,22 @@ In my blog article, visually show the output of processing this input array sort
 ## Approach & Efficiency
 Time: O(n^2): Sorting items in a collection. Space: O(1): Space is constant and no space is being created.
 ## Solution
-[Solution Code CC26]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/sort.InsertionSort.java
+[Solution Code CC26]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/sort/InsertionSort.java
+
+# Code Challenge 26:
+## Collaborated w/ Adrian
+# Challenge Summary
+In my blog article, visually show the output of processing this input array splitting then merging them in ascending order: 8,4,23,42,16,15. Provide a visual step through for each of the sample arrays based on the provided pseudo-code. Convert the pseudo-code into working code in your language. Present a complete set of working tests.
+## Whiteboard Process
+![27Pass1.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FSortPasses%2F27Pass1.png)
+In this pass, you are spliting the array in half until they are individual items.
+![27Pass2.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FSortPasses%2F27Pass2.png)
+In this pass, the individual items values are compared and merged into temporary arrays and are sorted.
+![27Pass3.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FSortPasses%2F27Pass3.png)
+In this pass, you continue to merge the smaller arrays into a larger array in the correct ascending order.
+![27Pass4.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FSortPasses%2F27Pass4.png)
+In this pass, this is the final merge and the array is now sorted in ascending order.
+## Approach & Efficiency
+Time: O(nlgn): Sorting arrays and merge sort is a recursive algo. Space: O(n): Elements are copied and in a auxiliary array with the size n. N is the number of items presented in the unsorted array.
+## Solution
+[Solution Code CC27]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/MergeSort.java
