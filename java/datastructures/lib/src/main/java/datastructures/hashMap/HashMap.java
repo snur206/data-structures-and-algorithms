@@ -34,11 +34,16 @@ public class HashMap<K, V>
   public void set(K key, V value)
   {
     // TODO: implement me
+    int setHM = hash(key);
+    HashMapPair<K, V> newPair = new HashMapPair<>(key, value);
+    LinkedList<HashMapPair<K, V>> list = bucketArrayList.get(setHM);
+    list.add(newPair);
   }
 
   public V get(K key)
   {
     // TODO: implement me
+    
     return null;
   }
 
