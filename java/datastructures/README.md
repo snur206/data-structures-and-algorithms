@@ -274,3 +274,18 @@ In this pass, this is the final merge and the array is now sorted in ascending o
 Time: O(nlgn): Sorting arrays and merge sort is a recursive algo. Space: O(n): Elements are copied and in a auxiliary array with the size n. N is the number of items presented in the unsorted array.
 ## Solution
 [Solution Code CC27]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/MergeSort.java
+# Code Challenge: Class 30: Hash Table Implementation
+# Hashtables
+Complete todos on Hash Table and create methods set(); get(); contains(); keys(); hash().
+### White Board Process
+N/A
+## Challenge
+Implement a Hashtable Class with the following methods: set(); get(); contains(); keys(); hash(); and tests.
+## Approach & Efficiency
+Time complexity of hash table is O(1) and space complexity is O(n).
+## API
+- set(): Method that will hash and set the key and set the value pair as well as handle collisions
+- get():  Returns the value of a key
+- contains(): Returns boolean if Hash Table is containing a key
+- keys(): Returns a collection of keys
+- hash(): Returns the index of that key
