@@ -1,22 +1,17 @@
-package datastructures.hashMap;
+package codechallenges.hashMap;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import datastructures.hashMap.HashMapPair;
-
 // NOTE: Does NOT preserve insertion order!
 // WARNING: Don't make K an Object or Character!
-public class HashMap<K, V>
-{
+public class HashMap<K, V> {
   ArrayList<LinkedList<HashMapPair<K, V>>> bucketArrayList;  // using ArrayList instead of array so we can instantiate with a parameterized type
   int size;
 
-  public HashMap(int size)
-  {
-    if (size < 1)
-    {
+  public HashMap(int size) {
+    if (size < 1) {
       throw new IllegalArgumentException("HashMap size must be 1 or greater!");
     }
 
@@ -24,15 +19,13 @@ public class HashMap<K, V>
     this.bucketArrayList = new ArrayList<>(size);
 
     // Next part is not required, and is a little inefficient, but it makes writing HashMap operations easier
-    for (int i = 0; i < this.size; i++)
-    {
+    for (int i = 0; i < this.size; i++) {
       bucketArrayList.add(i, new LinkedList<>());
     }
   }
 
   // Make sure to replace if the key is a dupe!
-  public void set(K key, V value)
-  {
+  public void set(K key, V value) {
     // TODO: implement me
     int setHM = hash(key);
     HashMapPair<K, V> newPair = new HashMapPair<>(key, value);
@@ -40,21 +33,18 @@ public class HashMap<K, V>
     list.add(newPair);
   }
 
-  public V get(K key)
-  {
+  public V get(K key) {
     // TODO: implement me
-    
+
     return null;
   }
 
-  public boolean contains(K key)
-  {
+  public boolean contains(K key) {
     // TODO: implement me
     return false;
   }
 
-  public List<K> keys()
-  {
+  public List<K> keys() {
     // TODO: implement me
     return null;
   }
@@ -64,8 +54,29 @@ public class HashMap<K, V>
   // Don't use Character! Don't use Object! Don't use any object you have not overridden equals() and hashCode() on!
   // If you do this, things that should collide, won't, because Object.hashCode() is not good
   // Protip: Testing collisions is easy with Integer, because Integer hashes to its own value
-  public int hash(K key)
-  {
+  public int hash(K key) {
     return Math.abs(key.hashCode()) % size;
   }
+
+
+  public String repeatedWord(String str) {
+    String key[] = str.split;
+    HashMap<String, Integer> wordsMap = new HashMap<String, Integer>();
+    for (int i = 0; i < strArray.length; i++) {
+      if (wordsMap.containsKey(token[i]))
+        wordsMap.put(token[i], wordsMap.get(token[i]) + 1);
+      else {
+        wordsMap.put(token[i] + 1);
+      }
+      for (int i = 0; i < token.length; i++) {
+        int count = wordsMap.get(token[i]);
+        if (count > 1) {
+          return token[i];
+        }
+
+      }
+      return "No Repeated Words";
+    }
+  }
 }
+

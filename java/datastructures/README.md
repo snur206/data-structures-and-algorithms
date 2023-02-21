@@ -16,7 +16,8 @@ Table reference from akkaben
 | [Tree Fizz Buzz](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/tree) |
 | [Sort](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/sort.InsertionSort.java) |
 | [Merge Sort](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/MergeSort.java) |
-
+| [Hash Table](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/hashmap/hashmap.java) |
+| [Hash Map Repeated Word](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/codechallenges/hashmap/hashmap.java) |
 
 
 # Code Challenge 2:
@@ -274,6 +275,7 @@ In this pass, this is the final merge and the array is now sorted in ascending o
 Time: O(nlgn): Sorting arrays and merge sort is a recursive algo. Space: O(n): Elements are copied and in a auxiliary array with the size n. N is the number of items presented in the unsorted array.
 ## Solution
 [Solution Code CC27]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/MergeSort.java
+
 # Code Challenge: Class 30: Hash Table Implementation
 # Hashtables
 Complete todos on Hash Table and create methods set(); get(); contains(); keys(); hash().
@@ -289,3 +291,14 @@ Time complexity of hash table is O(1) and space complexity is O(n).
 - contains(): Returns boolean if Hash Table is containing a key
 - keys(): Returns a collection of keys
 - hash(): Returns the index of that key
+
+# Code Challenge 31:
+## Collaborated w/ Adrian, Devon and Ryan
+# Challenge Summary
+Write a function called repeated word that finds the first word to occur more than once in a string
+## Whiteboard Process
+![CC31.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC31.png)
+## Approach & Efficiency
+Time complexity is O(n) and the space complexity is O(1).
+## Solution
+[Solution Code CC31](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/codechallenges/hashmap/hashmap.java)

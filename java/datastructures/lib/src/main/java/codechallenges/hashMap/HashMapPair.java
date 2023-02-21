@@ -1,4 +1,4 @@
-package datastructures.hashMap;
+package codechallenges.hashMap;
 
 import java.util.AbstractMap;
 
