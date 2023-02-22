@@ -60,23 +60,24 @@ public class HashMap<K, V> {
 
 
   public String repeatedWord(String str) {
-    String key[] = str.split;
+    String[] key = str.split();
     HashMap<String, Integer> wordsMap = new HashMap<String, Integer>();
     for (int i = 0; i < strArray.length; i++) {
-      if (wordsMap.containsKey(token[i]))
-        wordsMap.put(token[i], wordsMap.get(token[i]) + 1);
+      if (wordsMap.containsKey(key[i]))
+        return key[i];
       else {
-        wordsMap.put(token[i] + 1);
+        wordsMap.put(key[i] + 1);
       }
-      for (int i = 0; i < token.length; i++) {
-        int count = wordsMap.get(token[i]);
+      for (int i = 0; i < key.length; i++) {
+        int count = wordsMap.get(key[i]);
         if (count > 1) {
-          return token[i];
+          return key[i];
         }
 
       }
-      return "No Repeated Words";
     }
+    return "No Repeated Words";
   }
 }
+
 

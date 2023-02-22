@@ -18,7 +18,7 @@ Table reference from akkaben
 | [Merge Sort](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/MergeSort.java) |
 | [Hash Table](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/hashmap/hashmap.java) |
 | [Hash Map Repeated Word](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/codechallenges/hashmap/hashmap.java) |
-
+| [Tree Intersection](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/TreeIntersection.TreeIntersection.java) |
 
 # Code Challenge 2:
 
@@ -302,3 +302,13 @@ Write a function called repeated word that finds the first word to occur more th
 Time complexity is O(n) and the space complexity is O(1).
 ## Solution
 [Solution Code CC31](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/codechallenges/hashmap/hashmap.java)
+
+# Code Challenge 32:
+# Challenge Summary
+Write a function called tree_intersection that takes two binary trees as parameters. Using your Hashmap implementation as a part of your algorithm, return a set of values found in both trees.
+## Whiteboard Process
+![CC32.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC32.png)
+## Approach & Efficiency
+Time complexity is O(n) and the space complexity is O(1).
+## Solution
+[Solution Code CC32]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/TreeIntersection.TreeIntersection.java
