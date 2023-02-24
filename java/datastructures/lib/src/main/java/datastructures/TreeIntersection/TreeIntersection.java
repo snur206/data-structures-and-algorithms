@@ -1,27 +1,36 @@
 package datastructures.TreeIntersection;
 
+
+import com.sun.source.util.Trees;
+import datastructures.queue.Node;
+
+import java.util.HashSet;
+import java.util.Set;
+
 public class TreeIntersection {
-  HashSet<Integer> set = new HashSet<>;
-
-  ArrayList<Integer> treeOne =  treeOne.preOrder(treeOne), new ArrayList<>();
-
-  ArrayList<Integer> treeTwo =  treeTwo.preOrder(treeTwo),  new ArrayList<>(();
-
-	for (Integer value : treeOne) {
-
-    treeOne.add(value);
-
+  public static Set<Integer> treeIntersection(Trees trees1, Trees trees2){
+    Set<Integer>set = new HashSet<>();
+    if(trees1.root == null || trees2.root ==null){
+      return set;
+    }
+    Set<Integer>set1 = new HashSet<>();
+    Set<Integer>set2 = new HashSet<>();
+    traverse(trees1.root, set1);
+    traverse(trees2.root, set2);
+    for (Integer value : set1){
+      if(set2.contains(value)){
+        set.add(value);
+      }
+    }
+    return set;
   }
-
-	for (Integer value : treeTwo) {
-
-    treeTwo.add(value);
-
+  private static void traverse(Node node, Set<Integer> set){
+    if (node == null) {
+      return;
+    }
+    set.add((Integer) node.value);
+    traverse(node.left, set);
+    traverse(node.right, set);
   }
 
 }
-
-return set;
-
-
-  }
