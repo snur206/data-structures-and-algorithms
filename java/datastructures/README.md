@@ -312,3 +312,14 @@ Write a function called tree_intersection that takes two binary trees as paramet
 Time complexity is O(n) and the space complexity is O(1).
 ## Solution
 [Solution Code CC32]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/TreeIntersection.TreeIntersection.java
+
+# Code Challenge: Class 35: Graph Implementation
+# Graph
+
+### White Board Process
+N/A
+## Challenge
+
+## Approach & Efficiency
+
+## API

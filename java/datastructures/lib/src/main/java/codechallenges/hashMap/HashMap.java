@@ -1,5 +1,7 @@
 package codechallenges.hashMap;
 
+import datastructures.queue.Node;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -35,17 +37,44 @@ public class HashMap<K, V> {
 
   public V get(K key) {
     // TODO: implement me
-
+    int index = hash(key);
+    Node<HashMapPair<K, V>> current = bucketArrayList.get(index).getHead();
+    while (current != null) {
+      if (current.value.getKey().equals(key)) {
+        return current.value.getValue();
+      } else current = current.next;
+    }
     return null;
   }
 
   public boolean contains(K key) {
     // TODO: implement me
+    int index = hash(key);
+    Node<HashMapPair<K, V>> current = bucketArrayList.get(index).getHead();
+    while (current != null) {
+      if (current.value.getKey().equals(key)) {
+        return true;
+      } else {
+        current = current.next;
+      }
+    }
     return false;
   }
 
   public List<K> keys() {
     // TODO: implement me
+    List<K> keyList = new ArrayList<>();
+
+    for (LinkedList<HashMapPair<K, V>> list : bucketArrayList) {
+      if (list != null) {
+        Node<HashMapPair<K, V>> current;
+        current = list.getHead();
+        while (current != null) {
+          keyList.add(current.value.getKey());
+          current = current.next;
+        }
+      }
+    }
     return null;
   }
 
