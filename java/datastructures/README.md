@@ -315,11 +315,29 @@ Time complexity is O(n) and the space complexity is O(1).
 
 # Code Challenge: Class 35: Graph Implementation
 # Graph
-
+Implement your own Graph. The graph should be represented as an adjacency list.
 ### White Board Process
 N/A
 ## Challenge
+Implement methods:
+Add node w/ arguments of value. Returns the added node and add a node to the graph.
 
+Add edge w/ Arguments: of 2 nodes to be connected by the edge, weight (optional). Returns: nothing. Adds a new edge between two nodes in the graph. If specified, assign a weight to the edge. Both nodes should already be in the Graph
+
+Get nodes w/ no arguments. Returns all the nodes in the graph as a collection (set, list, or similar). Empty collection returned if there are no nodes
+
+Get neighbors w/ node as argument. Returns a collection of edges connected to the given node. Include the weight of the connection in the returned collection. Empty collection returned if there are no nodes
+
+Size w/ no arguments. Returns the total number of nodes in the graph. 0 if there are none.
 ## Approach & Efficiency
-
+Using hashmap to get the key value pair, keys are the verticies and the pair being the list. Every vertex holds the list of all edges.
 ## API
+public Vertex<T> addVertex(T value)- Adding a node to the graph
+
+public void addEdge(Vertex<T> start, Vertex<T> destination, int weight)- Adds a new edge between two nodes in the graph and if specified, assign a weight to the edge.
+
+public LinkedList<Vertex<T>> getVertices()- Returns all the nodes in the graph as a collection (set, list, or similar)
+
+public LinkedList<Edge<T>> getNeighbors(Vertex<T> vertex)- Returns a collection of edges connected to the given node, including weight.
+
+public int size()- Returns the total number of nodes in the graph.
