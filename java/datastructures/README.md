@@ -19,6 +19,9 @@ Table reference from akkaben
 | [Hash Table](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/hashmap/hashmap.java) |
 | [Hash Map Repeated Word](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/codechallenges/hashmap/hashmap.java) |
 | [Tree Intersection](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/TreeIntersection.TreeIntersection.java) |
+| [Graph Implementation](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph) |
+| [Graph Breadth First](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphBreadthFirst.java) |
+
 
 # Code Challenge 2:
 
@@ -311,7 +314,7 @@ Write a function called tree_intersection that takes two binary trees as paramet
 ## Approach & Efficiency
 Time complexity is O(n) and the space complexity is O(1).
 ## Solution
-[Solution Code CC32]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/TreeIntersection.TreeIntersection.java
+[Solution Code CC32](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/TreeIntersection.TreeIntersection.java)
 
 # Code Challenge: Class 35: Graph Implementation
 # Graph
@@ -341,3 +344,14 @@ public LinkedList<Vertex<T>> getVertices()- Returns all the nodes in the graph a
 public LinkedList<Edge<T>> getNeighbors(Vertex<T> vertex)- Returns a collection of edges connected to the given node, including weight.
 
 public int size()- Returns the total number of nodes in the graph.
+
+# Code Challenge 36:
+# Challenge Summary
+Write the following method for the Graph class using breadth first. Arguments of node. Return a collection of nodes in the order they were visited. Display the collection.
+## Whiteboard Process
+![CC36.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC36.png)
+## Approach & Efficiency
+Time complexity is O(n) and the space complexity is O(1).
+## Solution
+[Solution Code CC36](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphBreadthFirst.java)
+

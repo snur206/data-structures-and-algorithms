@@ -20,7 +20,7 @@ public class Graph<T extends Comparable<? super T>> implements Comparable<Graph<
   {
     // TODO: implement me
     Vertex<T> newVertex = new Vertex<>(value);
-    this.adjacencyLists.get(newVertex);
+    adjacencyLists.put(newVertex, null);
     return null;
   }
 
