@@ -1,5 +1,5 @@
 ### 401 Data Structures, Code Challenges
-Table reference from akkaben
+Code Challenges:
 | Table of Contents - Data Structures                                    |
 | -----------------------------------------------------------------------|
 | [Whiteboarding: Array Reversal](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/linkedlist/WhiteBoarding/codeChallenge1.png)
@@ -21,7 +21,7 @@ Table reference from akkaben
 | [Tree Intersection](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/TreeIntersection.TreeIntersection.java) |
 | [Graph Implementation](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph) |
 | [Graph Breadth First](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphBreadthFirst.java) |
-
+| [Graph Business Trip](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphTrip.java) |
 
 # Code Challenge 2:
 
@@ -354,4 +354,14 @@ Write the following method for the Graph class using breadth first. Arguments of
 Time complexity is O(n) and the space complexity is O(1).
 ## Solution
 [Solution Code CC36](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphBreadthFirst.java)
+
+# Code Challenge 37:
+# Challenge Summary
+Write a function called business trip that takes graph, array of city names as arguments. Return the cost of the trip (if it’s possible) or null (if not).
+## Whiteboard Process
+![CC37.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC37.png)
+## Approach & Efficiency
+Time complexity is O(n) and the space complexity is O(1).
+## Solution
+[Solution Code CC37](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphTrip.java)
 
