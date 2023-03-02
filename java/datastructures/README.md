@@ -365,3 +365,12 @@ Time complexity is O(n) and the space complexity is O(1).
 ## Solution
 [Solution Code CC37](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphTrip.java)
 
+# Code Challenge 38:
+# Challenge Summary
+Write the following method for the Graph class, named Depth first that takes a node (Starting point of search) as arguments. Return a collection of nodes in their pre-order depth-first traversal order. Program output, display the collection.
+## Whiteboard Process
+![CC38.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC38.png)
+## Approach & Efficiency
+Time complexity is O(n) and the space complexity is O(1).
+## Solution
+[Solution Code CC38]()
