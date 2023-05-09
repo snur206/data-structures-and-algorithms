@@ -3,7 +3,7 @@ Code Challenges:
 | Table of Contents - Data Structures                                    |
 | -----------------------------------------------------------------------|
 | [Whiteboarding: Array Reversal](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/linkedlist/WhiteBoarding/codeChallenge1.png)
-| [Whiteboarding: Array Insert Shift](https://github.com/snur206/data-structures-and-algorithms/blob/array-insert-shift/java/datastructures/lib/src/main/java/codechallenges/linkedlist/WhiteBoarding/codeChallenge2.png) |
+| [Whiteboarding: Array Insert Shift](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#code-challenge-2) |
 | [Whiteboarding: Binary Search](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/linkedlist/WhiteBoarding/codeChallenge03.png) |
 | [Linked List](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/linkedlist) |
 | [Linked List Insertions](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
@@ -148,12 +148,15 @@ isEmpty(boolean) tells if queue is empty
 # Code Challenge 11:
 ## Collaborated w/ Adrian
 # Challenge Summary
+
 Create a new class called pseudo queue.  PseudoQueue class has the two methods , enqueue and dequeue. Enqueue has an argument that is going to be implemented into the queue and remove a value from the queue using dequeue.
 
 ## Whiteboard Process
-![CC10.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC10.png)
+
+![CC11.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC11.png)
 
 ## Approach & Efficiency
+
 Working with a partner and research through videos was the approach because it allows us to pick each others brains. The Space complexity is O(n) holding the amount of values given between the two stacks and time is O(1) algo's worst case, stays constant.
 
 
@@ -161,11 +164,17 @@ Working with a partner and research through videos was the approach because it a
 [Solution Code CC10](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java)
 
 # Code Challenge 12:
+
 ## Collaborated w/ Adrian and Ryan
+
 # Challenge Summary
+
 Create class called AnimalShelter that holds only cats and doges using FIFO impletmenting the methods enqueue and dequeue.
+
 ## Whiteboard Process
-![CC12.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC12.png)
+
+![CC12.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC12.png)
+
 ## Approach & Efficiency
 Working with my partners to discuss the challenge and bounce ideas off of each other. The Time complexity is O(n) because the queue stays constant. The Space complexity is O(1) because it is holding values from the queue that needs no extra space that is required.
 
@@ -179,150 +188,268 @@ Working with my partners to discuss the challenge and bounce ideas off of each o
 Write a function called validate brackets that takes a string argument and return a boolean. Three types of brackets, Round Brackets: (), Square Brackets: [], and Curly Brackets: {}.
 
 ## Whiteboard Process
-![CC13.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC13.png)
+
+![CC13.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC13.png)
+
 ## Approach & Efficiency
+
 Researching on the brackets  The Time complexity is O(n) because we are running a loop. The Space complexity is O(1) because the space is not increasing.
 
 ## Solution
 [Solution Code CC13](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/brackets/Brackets.java)
 
 # Code Challenge: Trees
-A data structure where nodes are organized by root, left, or right depending if the order is either preOrder, inOrder, or postOrder.
+
+A data structure where nodes are organized by root, left, or right depending on if the order is either preOrder, inOrder, or postOrder.
+
 ## Challenge
+
 Create a Node class that has properties for the value stored in the node, the left child node, and the right child node.
+
 Create a Binary Tree class that takes three methodes (pre, in, post orders) that returns an array of values ordered appropriately.
+
 Create a Binary Search Tree class that takes the methods add with value as its argument and returns nothing. Adds a new node with that value in the correct location in the binary search tree.
-Contains is the other method that has value as its argument and returns a boolean indicating whether or not the value is in the tree at least once.
+
+Contain is the other method that has value as its argument and returns a boolean indicating whether the value is in the tree at least once.
+
 Tests:
-Can successfully instantiate an empty tree
-Can successfully instantiate a tree with a single root node
-For a Binary Search Tree, can successfully add a left child and right child properly to a node
-Can successfully return a collection from a preorder traversal
-Can successfully return a collection from an inorder traversal
-Can successfully return a collection from a postorder traversal
-Returns true	false for the contains method, given an existing or non-existing node value
+
+Can successfully instantiate an empty tree.
+
+Can successfully instantiate a tree with a single root node.
+
+For a Binary Search Tree, can successfully add a left child and right child properly to a node.
+
+Can successfully return a collection from a preorder traversal.
+
+Can successfully return a collection from an inorder traversal.
+
+Can successfully return a collection from a postorder traversal.
+
+Returns true	false for the contains method, given an existing or non-existing node value.
 
 ## Approach & Efficiency
+
 BST and Binary tree  has the complexity time of O(h) depends on the height of the tree or for BST O(n) because the tree is increasing and the space O(w) depends on the width of the tree.
+
 ## API
 ### Binary Tree
-public Object[] preOrderTraversal(): Root will be looked at first, then goes left, and will check right last. Root, Left, Right
-public Object[] inOrderTraversal(): Left will be looked at first, then goes root, and will check right last. Left, Root, Right
-P public Object[] postOrderTraversal(): Left will be looked at first, then goes right, and will check root last. Left, Right, Root
+
+public Object[] preOrderTraversal(): Root will be looked at first, then goes left, and will check right last. Root, Left, Right.
+
+public Object[] inOrderTraversal(): Left will be looked at first, then goes root, and will check right last. Left, Root, Right.
+
+P public Object[] postOrderTraversal(): Left will be looked at first, then goes right, and will check root last. Left, Right, Root.
+
 ### Binary Search Tree
+
 public void add(T value): Adds new node with the value in the right spot.
+
 public boolean contains (T value): Returns false when the value is not in the tree at least once.
 
 # Code Challenge 16:
+
 ## Collaborated w/ Adrian, Devon and Ryan
+
 # Challenge Summary
+
 Write a Binary Tree class method to find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
 ## Whiteboard Process
-![CC16.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC16.png)
+
+![CC16.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC16.png)
+
 ## Approach & Efficiency
-The time complexity is O(h) depending on the height of the tree  and the space complexity is O(w) depending on the width of the tree
+
+The time complexity is O(h) depending on the height of the tree  and the space complexity is O(w) depending on the width of the tree.
+
 ## Solution
+
 [Solution Code CC16](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/TreeMax.java) |
 
 # Code Challenge 17:
+
 ## Collaborated w/ Adrian, Devon and Ryan
+
 # Challenge Summary
+
 Write a function called breadth first that is a tree and return a list of all values in the tree, in the order they were encountered.
+
 ## Whiteboard Process
-![CC17.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC17.png)
+
+![CC17.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC17.png)
+
 ## Approach & Efficiency
+
 The time complexity is O(h) depending on the height of the tree  and the space complexity is O(w) depending on the width of the tree.
+
 ## Solution
+
 [Solution Code CC17](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/BreadthFirst.java) |
 
 # Code Challenge 18:
+
 ## Collaborated w/ Adrian, Devon and Ryan
+
 # Challenge Summary
+
 Write a function called fizz buzz tree that has an argument k-ary tree and returns a new k-ary tree.
+
 If the value is divisible by 3, replace the value with “Fizz”.
+
 If the value is divisible by 5, replace the value with “Buzz”.
+
 If the value is divisible by 3 and 5, replace the value with “FizzBuzz”.
+
 If the value is not divisible by 3 or 5, simply turn the number into a String.
+
 ## Whiteboard Process
-![CC18.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC18.png)
+
+![CC18.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC18.png)
+
 ## Approach & Efficiency
 The time complexity is O(h) depending on the height of the tree  and the space complexity is O(w) depending on the width of the tree.
+
 ## Solution
+
 [Solution Code CC17](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/datastructures/tree/BreadthFirst.java) |
 
 # Code Challenge 26:
+
 ## Collaborated w/ Adrian and Ryan
+
 # Challenge Summary
+
 In my blog article, visually show the output of processing this input array sorting them in ascending order: 8,4,23,42,16,15. Provide a visual step through for each of the sample arrays based on the provided pseudo-code. Convert the pseudo-code into working code in your language. Present a complete set of working tests.
+
 ## Whiteboard Process
-![cc26.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2Fcc26.png)
+
+![cc26.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2Fcc26.png)
+
 ## Approach & Efficiency
+
 Time: O(n^2): Sorting items in a collection. Space: O(1): Space is constant and no space is being created.
+
 ## Solution
+
 [Solution Code CC26]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/sort/InsertionSort.java
 
 # Code Challenge 27:
+
 ## Collaborated w/ Adrian
+
 # Challenge Summary
+
 In my blog article, visually show the output of processing this input array splitting then merging them in ascending order: 8,4,23,42,16,15. Provide a visual step through for each of the sample arrays based on the provided pseudo-code. Convert the pseudo-code into working code in your language. Present a complete set of working tests.
+
 ## Whiteboard Process
+
 ![27Pass1.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FSortPasses%2F27Pass1.png)
+
 In this pass, you are spliting the array in half until they are individual items.
+
 ![27Pass2.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FSortPasses%2F27Pass2.png)
+
 In this pass, the individual items values are compared and merged into temporary arrays and are sorted.
+
 ![27Pass3.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FSortPasses%2F27Pass3.png)
+
 In this pass, you continue to merge the smaller arrays into a larger array in the correct ascending order.
+
 ![27Pass4.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FSortPasses%2F27Pass4.png)
+
 In this pass, this is the final merge and the array is now sorted in ascending order.
+
 ## Approach & Efficiency
+
 Time: O(nlgn): Sorting arrays and merge sort is a recursive algo. Space: O(n): Elements are copied and in a auxiliary array with the size n. N is the number of items presented in the unsorted array.
+
 ## Solution
+
 [Solution Code CC27]https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/MergeSort.java
 
 # Code Challenge: Class 30: Hash Table Implementation
-# Hashtables
+
+# Hashtable
+
 Complete todos on Hash Table and create methods set(); get(); contains(); keys(); hash().
+
 ### White Board Process
+
 N/A
+
 ## Challenge
+
 Implement a Hashtable Class with the following methods: set(); get(); contains(); keys(); hash(); and tests.
+
 ## Approach & Efficiency
+
 Time complexity of hash table is O(1) and space complexity is O(n).
+
 ## API
-- set(): Method that will hash and set the key and set the value pair as well as handle collisions
-- get():  Returns the value of a key
-- contains(): Returns boolean if Hash Table is containing a key
-- keys(): Returns a collection of keys
-- hash(): Returns the index of that key
+
+- set(): Method that will hash and set the key and set the value pair as well as handle collisions.
+
+- get():  Returns the value of a key.
+
+- contains(): Returns boolean if Hash Table is containing a key.
+
+- keys(): Returns a collection of keys.
+
+- hash(): Returns the index of that key.
 
 # Code Challenge 31:
+
 ## Collaborated w/ Adrian, Devon and Ryan
+
 # Challenge Summary
-Write a function called repeated word that finds the first word to occur more than once in a string
+
+Write a function called repeated word that finds the first word to occur more than once in a string.
+
 ## Whiteboard Process
-![CC31.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2Flinkedlist%2FWhiteBoarding%2FCC31.png)
+
+![CC31.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC31.png)
+
 ## Approach & Efficiency
+
 Time complexity is O(n) and the space complexity is O(1).
+
 ## Solution
+
 [Solution Code CC31](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/codechallenges/hashmap/hashmap.java)
 
 # Code Challenge 32:
+
 # Challenge Summary
+
 Write a function called tree_intersection that takes two binary trees as parameters. Using your Hashmap implementation as a part of your algorithm, return a set of values found in both trees.
+
 ## Whiteboard Process
+
 ![CC32.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC32.png)
+
 ## Approach & Efficiency
+
 Time complexity is O(n) and the space complexity is O(1).
+
 ## Solution
+
 [Solution Code CC32](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/TreeIntersection.TreeIntersection.java)
 
 # Code Challenge: Class 35: Graph Implementation
+
 # Graph
+
 Implement your own Graph. The graph should be represented as an adjacency list.
+
 ### White Board Process
+
 N/A
+
 ## Challenge
+
 Implement methods:
+
 Add node w/ arguments of value. Returns the added node and add a node to the graph.
 
 Add edge w/ Arguments: of 2 nodes to be connected by the edge, weight (optional). Returns: nothing. Adds a new edge between two nodes in the graph. If specified, assign a weight to the edge. Both nodes should already be in the Graph
@@ -347,30 +474,50 @@ public int size()- Returns the total number of nodes in the graph.
 
 # Code Challenge 36:
 # Challenge Summary
+
 Write the following method for the Graph class using breadth first. Arguments of node. Return a collection of nodes in the order they were visited. Display the collection.
+
 ## Whiteboard Process
+
 ![CC36.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC36.png)
+
 ## Approach & Efficiency
+
 Time complexity is O(n) and the space complexity is O(1).
+
 ## Solution
+
 [Solution Code CC36](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphBreadthFirst.java)
 
 # Code Challenge 37:
 # Challenge Summary
+
 Write a function called business trip that takes graph, array of city names as arguments. Return the cost of the trip (if it’s possible) or null (if not).
+
 ## Whiteboard Process
+
 ![CC37.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC37.png)
+
 ## Approach & Efficiency
+
 Time complexity is O(n) and the space complexity is O(1).
+
 ## Solution
+
 [Solution Code CC37](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphTrip.java)
 
 # Code Challenge 38:
 # Challenge Summary
+
 Write the following method for the Graph class, named Depth first that takes a node (Starting point of search) as arguments. Return a collection of nodes in their pre-order depth-first traversal order. Program output, display the collection.
+
 ## Whiteboard Process
+
 ![CC38.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC38.png)
+
 ## Approach & Efficiency
+
 Time complexity is O(n) and the space complexity is O(1).
+
 ## Solution
 [Solution Code CC38]()
