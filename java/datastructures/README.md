@@ -3,25 +3,29 @@ Code Challenges:
 | Table of Contents - Data Structures                                    |
 | -----------------------------------------------------------------------|
 | [Whiteboarding: Array Reversal](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/linkedlist/WhiteBoarding/codeChallenge1.png)
-| [Whiteboarding: Array Insert Shift](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#code-challenge-2) |
-| [Whiteboarding: Binary Search](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/linkedlist/WhiteBoarding/codeChallenge03.png) |
-| [Linked List](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/linkedlist) |
-| [Linked List Insertions](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
-| [Linked List Zip](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java) |
-| [Stacks & Queues](https://github.com/snur206/data-structures-and-algorithms/blob/stack-and-queue/java/datastructures/README.md) |
-| [Stacks & Queues Pseudo](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java) |
-| [Stacks & Queues Animal Shelter](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/animal/animalShelter.java) |
-| [Stacks & Queues Valid Brackets](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/brackets/Brackets.java) |
-| [Tree Max](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/tree) |
-| [Tree Fizz Buzz](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/tree) |
-| [Sort](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/sort.InsertionSort.java) |
-| [Merge Sort](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/MergeSort.java) |
-| [Hash Table](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/hashmap/hashmap.java) |
-| [Hash Map Repeated Word](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/codechallenges/hashmap/hashmap.java) |
-| [Tree Intersection](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/TreeIntersection.TreeIntersection.java) |
-| [Graph Implementation](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph) |
-| [Graph Breadth First](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphBreadthFirst.java) |
-| [Graph Business Trip](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphTrip.java) |
+| [Whiteboarding: Array Insert Shift](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#whiteboard-process) |
+| [Whiteboarding: Binary Search](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#whiteboard-process-1) |
+| [Linked List](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#code-challenge-5) |
+| [Linked List Insertions](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#whiteboard-process-2) |
+| [CC 7](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#challenge-summary-1) |
+| [Linked List Zip](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#whiteboard-process-4) |
+| [Stacks & Queues](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#code-challenge-10) |
+| [Stacks & Queues Pseudo](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC11.png) |
+| [Stacks & Queues Animal Shelter](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC12.png) |
+| [Stacks & Queues Valid Brackets](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC13.png) |
+| [Trees](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#code-challenge-trees) |
+| [Tree Max](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC16.png) |
+| [Tree Breadth First](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC17.png) |
+| [Tree Fizz Buzz](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC18.png) |
+| [Sort](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2Fcc26.png) |
+| [Merge Sort](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#code-challenge-27) |
+| [Hash Table](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#code-challenge-class-30-hash-table-implementation) |
+| [Hash Map Repeated Word](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC31.png) |
+| [Tree Intersection](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC32.png) |
+| [Graph Implementation](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures#code-challenge-class-35-graph-implementation) |
+| [Graph Breadth First](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC36.png) |
+| [Graph Business Trip](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC37.png) |
+| [Graph Depth First](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC38.png) |
 
 # Code Challenge 2:
 
@@ -59,22 +63,30 @@ Create a Linked List class that contains the methods insert, includes, and to st
 
 ## Challenge
 
-Can successfully instantiate an empty linked list
-Can properly insert into the linked list
-The head property will properly point to the first node in the linked list
-Can properly insert multiple nodes into the linked list
-Will return true when finding a value within the linked list that exists
-Will return false when searching for a value in the linked list that does not exist
-Can properly return a collection of all the values that exist in the linked list
+Can successfully instantiate an empty linked list.
+
+Can properly insert into the linked list.
+
+The head property will properly point to the first node in the linked list.
+
+Can properly insert multiple nodes into the linked list.
+
+Will return true when finding a value within the linked list that exists.
+
+Will return false when searching for a value in the linked list that does not exist.
+
+Can properly return a collection of all the values that exist in the linked list.
 
 ## Approach & Efficiency
 
 Just researching things and implementing them.
 
 ## Big O
-Insert: space O(1) size of 1 node time O(1) traversing at all
-Includes: O(1) time O(n) looking for the last link traversing the linked list once
-toString: O(1) time O(n) traversing the whole list
+Insert: space O(1) size of 1 node time O(1) traversing at all.
+
+Includes: O(1) time O(n) looking for the last link traversing the linked list once.
+
+toString: O(1) time O(n) traversing the whole list.
 
 ## API
 public void insert(int value)
@@ -115,38 +127,57 @@ The approach that I took was to find the length of the linked list and find the 
 # Code Challenge 8:
 
 # Challenge Summary
-Write a function called zip lists that takes a linked lists and zips another linked lists
-Return new linked list
+
+Write a function called zip lists that takes a linked lists and zips another linked lists. Return new linked list
+
 ## Whiteboard Process
+
 <img width="788" alt="codeChallenge8" src="https://user-images.githubusercontent.com/115438182/213624391-47016ad3-33e7-4a2f-8c13-041012182fb0.png">
 
 ## Approach & Efficiency
+
 The approach that I took was to take two linked lists and returning a list that combines/zips through both linked lists. Using O(n) for time since I am looping in the code and for space O(n) since the list is growing.
 
 ## Solution
+
 [Solution Code CC 8](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/linkedlist/LinkedList.java)
 
 # Code Challenge 10:
+
 ## Collaborated w/ Adrian
 
 ## Stacks and Queues and Challenge
+
 Using a Linked List as the underlying data storage mechanism, implement both a Stack and a Queue. For Stack, the class contains push, pop, peek, and isEmpty methods. For Queue, the class contains enqueue, dequeue, peek, and isEmpty methods.
 
 ## Approach & Efficiency
-Completed the methods for both stack and queque. Push, pop, peek, dequeue and isEmpty all use the O(1) for both time and space because you are doing one thing. Enqueue uses the time O(n) because it is traversing through the queue and O(1) for space.
+
+Completed the methods for both stack and queue. Push, pop, peek, dequeue and isEmpty all use the O(1) for both time and space because you are doing one thing. Enqueue uses the time O(n) because it is traversing through the queue and O(1) for space.
+
 ## API
-Stack: stacking on top of each other
-Queue: a line of some sort
-Push(t val):Adds new node to stack and sets new node as top
-pop(): Removes node from top of stack and returns the node’s value
-Peek(): Returns value from top of stack
-Enqueue(t val): Add a node to the back of your queue
-Dequeque: Remove node from front of queue, return the val
-Peek(): Return value of front node
-isEmpty(boolean) tells if queue is empty
+
+Stack: stacking on top of each other.
+
+Queue: a line of some sort.
+
+Push(t val):Adds new node to stack and sets new node as top.
+
+pop(): Removes node from top of stack and returns the node’s value.
+
+Peek(): Returns value from top of stack.
+
+Enqueue(t val): Add a node to the back of your queue.
+
+Dequeue: Remove node from front of queue, return the val.
+
+Peek(): Return value of front node.
+
+isEmpty(boolean) tells if queue is empty.
 
 # Code Challenge 11:
+
 ## Collaborated w/ Adrian
+
 # Challenge Summary
 
 Create a new class called pseudo queue.  PseudoQueue class has the two methods , enqueue and dequeue. Enqueue has an argument that is going to be implemented into the queue and remove a value from the queue using dequeue.
@@ -159,8 +190,8 @@ Create a new class called pseudo queue.  PseudoQueue class has the two methods ,
 
 Working with a partner and research through videos was the approach because it allows us to pick each others brains. The Space complexity is O(n) holding the amount of values given between the two stacks and time is O(1) algo's worst case, stays constant.
 
-
 ## Solution
+
 [Solution Code CC10](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/pseudoQueue.java)
 
 # Code Challenge 12:
@@ -182,7 +213,9 @@ Working with my partners to discuss the challenge and bounce ideas off of each o
 [Solution Code CC12](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/animal/animalShelter.java)
 
 # Code Challenge 13:
+
 ## Collaborated w/ Adrian and Ryan
+
 # Challenge Summary
 
 Write a function called validate brackets that takes a string argument and return a boolean. Three types of brackets, Round Brackets: (), Square Brackets: [], and Curly Brackets: {}.
@@ -196,6 +229,7 @@ Write a function called validate brackets that takes a string argument and retur
 Researching on the brackets  The Time complexity is O(n) because we are running a loop. The Space complexity is O(1) because the space is not increasing.
 
 ## Solution
+
 [Solution Code CC13](https://github.com/snur206/data-structures-and-algorithms/blob/stack-queue-pseudo/java/datastructures/lib/src/main/java/codechallenges/linkedlist/brackets/Brackets.java)
 
 # Code Challenge: Trees
@@ -473,6 +507,7 @@ public LinkedList<Edge<T>> getNeighbors(Vertex<T> vertex)- Returns a collection 
 public int size()- Returns the total number of nodes in the graph.
 
 # Code Challenge 36:
+
 # Challenge Summary
 
 Write the following method for the Graph class using breadth first. Arguments of node. Return a collection of nodes in the order they were visited. Display the collection.
@@ -490,6 +525,7 @@ Time complexity is O(n) and the space complexity is O(1).
 [Solution Code CC36](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphBreadthFirst.java)
 
 # Code Challenge 37:
+
 # Challenge Summary
 
 Write a function called business trip that takes graph, array of city names as arguments. Return the cost of the trip (if it’s possible) or null (if not).
@@ -507,6 +543,7 @@ Time complexity is O(n) and the space complexity is O(1).
 [Solution Code CC37](https://github.com/snur206/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/graph.GraphTrip.java)
 
 # Code Challenge 38:
+
 # Challenge Summary
 
 Write the following method for the Graph class, named Depth first that takes a node (Starting point of search) as arguments. Return a collection of nodes in their pre-order depth-first traversal order. Program output, display the collection.
@@ -519,5 +556,3 @@ Write the following method for the Graph class, named Depth first that takes a n
 
 Time complexity is O(n) and the space complexity is O(1).
 
-## Solution
-[Solution Code CC38]()
