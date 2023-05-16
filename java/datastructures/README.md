@@ -494,8 +494,11 @@ Get neighbors w/ node as argument. Returns a collection of edges connected to th
 
 Size w/ no arguments. Returns the total number of nodes in the graph. 0 if there are none.
 ## Approach & Efficiency
+
 Using hashmap to get the key value pair, keys are the verticies and the pair being the list. Every vertex holds the list of all edges.
+
 ## API
+
 public Vertex<T> addVertex(T value)- Adding a node to the graph
 
 public void addEdge(Vertex<T> start, Vertex<T> destination, int weight)- Adds a new edge between two nodes in the graph and if specified, assign a weight to the edge.

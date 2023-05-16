@@ -8,7 +8,7 @@ public class AnimalShelter extends ConcurrentLinkedQueue {
     this.add(newAnimal);
   }
 
-  public boolean dequeue(String pref) {
+  public Object dequeue(String pref) {
     // if the pref is not "cat" or "dog", return null
     if (!pref.equals("cat") && !pref.equals("dog")) {
       return null;
@@ -44,4 +44,4 @@ public class AnimalShelter extends ConcurrentLinkedQueue {
     return null;
   }
 }
-}
+
