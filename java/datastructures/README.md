@@ -207,9 +207,11 @@ Create class called AnimalShelter that holds only cats and doges using FIFO impl
 ![CC12.png](lib%2Fsrc%2Fmain%2Fjava%2Fcodechallenges%2FWhiteBoarding%2FCC12.png)
 
 ## Approach & Efficiency
+
 Working with my partners to discuss the challenge and bounce ideas off of each other. The Time complexity is O(n) because the queue stays constant. The Space complexity is O(1) because it is holding values from the queue that needs no extra space that is required.
 
 ## Solution
+
 [Solution Code CC12](https://github.com/snur206/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/linkedlist/animal/AnimalShelter.java)
 
 # Code Challenge 13:
