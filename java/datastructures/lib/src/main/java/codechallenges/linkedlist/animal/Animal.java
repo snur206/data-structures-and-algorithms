@@ -2,6 +2,7 @@ package codechallenges.linkedlist.animal;
 
 public class Animal {
 
+  public String animal;
   private String species;
   private String name;
 
